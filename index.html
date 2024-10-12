@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="todo__container">
+        <div class="todo__header">
+            <div class="clock" id="clock"></div>
+           
+        </div>
+        <div class="todo__input">
+            <input type="text" id="todo-input" placeholder="what is your plans?">
+            <button onclick="addtodo()">Add todo</button>
+        </div>
+        <ul class="todo__list" id="todo-list"></ul>
+        <div class="clear__buttons">
+            <button class="clear__all" onclick="clearalltodos()">Clear All</button>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
